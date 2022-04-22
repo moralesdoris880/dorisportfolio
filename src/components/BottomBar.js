@@ -1,7 +1,8 @@
 function BottomBar(){
     return(
-        <div>
-            <p>© 2022 Doris Morales</p>
+        <div id="bottombar">
+            <p>Designed and Developed by Doris Morales</p>
+            <p id="copyrightlogo">Copyright © 2022 Doris Morales</p>
         </div>
     );
 }

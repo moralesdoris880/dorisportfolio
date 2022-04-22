@@ -1,13 +1,235 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+body{
+  background-color: #FFF6EA;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+/* NAVBAR */
+#navbar{
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  right: 35px;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 36px;
+  margin-top: 10px;
+}
+.navlinks a{
+  text-decoration: none;
+  color: #AD8B73;
+}
+.navlinks a:hover{
+  color: #564539;
+}
+
+/* BOTTOM BAR */
+#bottombar{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 18px;
+  color: #AD8B73;
+  padding: 10px;
+}
+
+/*  HOME */
+#logo{
+  font-family: 'Shizuru', cursive;
+  font-size: 120px;
+  color: #AD8B73;
+  margin-left: 25px;
+}
+#name{
+  background-color: #AD8B73; 
+  width: 400px;
+  height: 50px;
+  border-radius: 25px;
+  margin-top: 20px;
+  margin-left: -30px;
+}
+#name p{
+  font-family: 'Ubuntu', sans-serif;
+  color: #FFF6EA;
+  text-align: center;
+  font-size: 36px;
+  position: relative;
+  top: 8px;
+  letter-spacing: 5px;
+  margin-left: 35px;
+}
+#bio{
+  display: flex;
+}
+#bioimg{
+  height: 600px;
+  width: 500px;
+  margin-left: 35px;
+  margin-top: 20px;
+  border: 2px solid #AD8B73;
+  background-color: #F7E9D7;
+}
+
+#biotext{
+  width: 100%;
+  height: 300px;
+  font-family: 'Ubuntu', sans-serif;
+  display: flex;
+  margin-right: 35px;
+}
+#bio2{
+  width: 700px;
+  border: 2px solid #AD8B73;
+  margin-right: 20px;
+}
+#bio3{
+  width: 50px;
+  font-size: 42px;
+  font-family: 'Shizuru', cursive;
+  color: #AD8B73;
+  border: 2px solid #AD8B73;
+}
+#biocityimg{
+  border: 2px solid #AD8B73;
+  width: 100%;
+  margin-top: 20px;
+  height: 275px;
+  background-color: #F7E9D7;
+  overflow: hidden;
+}
+#biocityimg img{
+  width: 150%;
+}
+#biocontent{
+  width: 100%;
+  margin-left: 20px;
+  margin-top: 20px;
+  margin-right: 35px;
+  display: flex;
+  flex-direction: column;
+}
+#projectstitlebox{
+  background-color: #AD8B73; 
+  width: 400px;
+  height: 50px;
+  border-radius: 25px;
+  margin-top: 20px;
+  position: relative;
+  left: 37%;
+}
+#projecttitle{
+  font-family: 'Ubuntu', sans-serif;
+  color: #FFF6EA;
+  text-align: center;
+  font-size: 36px;
+  position: relative;
+  top: 8px;
+  letter-spacing: 5px;
+}
+#projectlist{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.projecttab{
+  border: 2px solid #AD8B73;
+  margin-top: 20px;
+}
+.projecttab img{
+  width: 100%;
+  height: 200px;
+}
+#bioinfo{
+  font-family: 'Ubuntu', sans-serif;
+  color: #AD8B73;
+  font-size: 48px;
+  text-align: center;
+  position: relative;
+  top: 50px;
+}
+.biobtn{
+  background-color: #AD8B73; 
+  width: 300px;
+  height: 50px;
+  border-radius: 25px;
+  position: relative;
+  top: 60px;
+  left: 30%;
+  border: none;
+}
+.biobtn a{
+  font-family: 'Ubuntu', sans-serif;
+  color: #FFF6EA;
+  font-size: 24px;
+  letter-spacing: 5px;
+}
+.biobtn:hover{
+  background-color: #564539;
+}
+#seemore{
+  background-color: #AD8B73; 
+  width: 300px;
+  height: 50px;
+  border-radius: 25px;
+  border: none;
+  margin-top: 20px;
+  position: relative;
+  left: 40%;
+}
+#seemore a{
+  text-decoration: none;
+  font-family: 'Ubuntu', sans-serif;
+  color: #FFF6EA;
+  font-size: 24px;
+  letter-spacing: 5px;
+}
+#seemore:hover{
+  background-color: #564539;
 }

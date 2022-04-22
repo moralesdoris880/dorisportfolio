@@ -1,32 +1,43 @@
+import { Link } from "react-router-dom";
+
+
 function Home(){
     return(
-        <div>
-            <div>
-            <h1>ドリス</h1>
-            <p>Doris Morales</p>
+        <div id="home">
+            <div id="logobox">
+                <h1 id="logo">ドリス</h1>
+                <div id="name"><p>doris morales</p></div>
             </div>
 
-            <div>
-                <div>IMAGE HERE</div>
-
-                <div>
-                    <p></p>
+            <div id="bio">
+                <div id="bioimg"><img src="/media/doris.png" alt="drawing of doris"/></div>
+                <div id="biocontent">
+                    <div id="biotext">
+                        <div id="bio2">
+                        <p id="bioinfo">Doris is a fullstack developer and multimedia artist based in NYC</p>
+                        <button className="biobtn"><Link to="/about" style={{textDecoration: "none"}}>about me</Link></button>
+                        </div>
+                        <div id="bio3">
+                        <p>クリエーティブ </p>
+                        </div>
+                    </div>
+                    <div id="biocityimg"><img src="/media/city.png" alt="landscape drawing"/></div>
                 </div>
             </div>
 
-            <div>
-                <h1>Projects</h1>
-                <div>
-                <p>CJ Fish Guide</p>
+            <div id="projectstitlebox"><h1 id="projecttitle" >projects</h1></div>
+            <div id="projectlist">
+                <div className="projecttab">
+                    <img src="/media/cjfishguide.png" alt="cjfishguide website"/>
                 </div>
-                <div>
-                <p>My Daily Journal</p>
+                <div className="projecttab">
+                    <img src="/media/momo.png" alt="momo website" />
                 </div>
-                <div>
-                <p>Momo</p>
+                <div className="projecttab">
+                    <img src="/media/mydailyplanner.png" alt="mydailyplanner website"/>
                 </div>
-                <button>See More</button>
             </div>
+            <button id="seemore"><Link to="/projects">See More</Link></button>
         </div>
     );
 }
