@@ -4,9 +4,9 @@ import { Link } from "react-router-dom";
 function Home(){
     return(
         <div id="home">
-            <div id="logobox">
-                <h1 id="logo">ドリス</h1>
-                <div id="name"><p>doris morales</p></div>
+            <div className="logobox">
+                <h1 className="logo">ドリス</h1>
+                <div className="name"><p>doris morales</p></div>
             </div>
 
             <div id="bio">
