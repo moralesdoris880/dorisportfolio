@@ -11,10 +11,9 @@ function About(){
                     <div>
                         <div id="abouttitlebox"><h1 id="abouttitle">about me</h1></div>
                         <div id="aboutext">
-                            <p >Hi!👋  Nice to meet you. I am a Full Stack Developer based in NYC. I focus on building web applications. I love learning about new technologies and creating innovative solutions. When I am not coding I love to make art with all types of mediums. </p>
+                            <p >Hi! Nice to meet you. I am a Full Stack Developer based in NYC. I focus on building web applications. I love learning about new technologies and creating innovative solutions. When I am not coding I love to make art with all types of mediums. </p>
                         </div>
                     </div>
-                    <div></div>
                     <div id="tech">
                         <div id="techtitlebox"><h1 id="techtitle">technologies</h1></div>
                         <div id="techlist">
