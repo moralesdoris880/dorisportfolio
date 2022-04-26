@@ -4,11 +4,6 @@ import { Link } from "react-router-dom";
 function Home(){
     return(
         <div id="home">
-            <div className="logobox">
-                <h1 className="logo">ドリス</h1>
-                <div className="name"><p>doris morales</p></div>
-            </div>
-
             <div id="bio">
                 <div id="bioimg"><img src="/media/doris.png" alt="drawing of doris"/></div>
                 <div id="biocontent">

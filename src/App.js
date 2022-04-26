@@ -9,7 +9,13 @@ import Resume from "./pages/Resume";
 function App() {
   return (
     <BrowserRouter>
+    <div style={{display: 'flex', flexDirection: 'row'}}>
+      <div className="logobox">
+                <h1 className="logo">ドリス</h1>
+                <div className="name"><p>doris morales</p></div>
+      </div>
       <NavBar />
+    </div>
       <div className="App">
         <Routes> 
           <Route path="/resume" element={<Resume />} /> 

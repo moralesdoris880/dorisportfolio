@@ -1,14 +1,10 @@
 function Projects(){
     return(
         <div id="projectpage">
-            <div className="logobox">
-                <h1 className="logo">ドリス</h1>
-                <div className="name"><p>doris morales</p></div>
-            </div>
             <div id="projectbox"><h1 id="projectstitle">projects</h1></div>
             <div id="projectlist2">
                 <div className="project">
-                <div className="imgbox"><img src="/media/notfound.png" alt="website img of nycdrinkerssociety" className="projectimg"/></div>
+                <div className="imgbox"><img src="/media/nycdrinkers.png" alt="website img of nycdrinkerssociety" className="projectimg"/></div>
                     <div className="projectinfo">
                         <h1>NYC Drinkers Society</h1>
                         <p>Website made for logging drinks across NYC which has user authentication through BCrypt. Single page application using React, CSS, HTML, JavaScript, Ruby, and Ruby on Rails.</p>

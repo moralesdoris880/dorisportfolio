@@ -1,10 +1,6 @@
 function About(){
     return(
         <div id="about">
-            <div className="logobox">
-                <h1 className="logo">ドリス</h1>
-                <div className="name"><p>doris morales</p></div>
-            </div>
             <div id="aboutcontent">
                 <div id="aboutimg"><img src="/media/doris.png" alt="doris"/></div>
                 <div id="aboutbio">
