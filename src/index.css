@@ -367,15 +367,6 @@ body{
   justify-content: space-evenly;
 }
 
-/* RESUME */
-#resume{
-  margin-top: 20px;
-  width: 900px;
-  position: relative;
-  left: 20%;
-  border: 2px solid #AD8B73;
-}
-
 /* PROJECTS */
 #projectlist2{
   display: flex;
