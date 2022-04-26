@@ -21,15 +21,17 @@ function Home(){
             </div>
 
             <div id="projectstitlebox"><h1 id="projecttitle" >projects</h1></div>
-            <div id="projectlist">
-                <div className="projecttab">
-                    <img src="/media/cjfishguide.png" alt="cjfishguide website"/>
-                </div>
-                <div className="projecttab">
-                    <img src="/media/momo.png" alt="momo website" />
-                </div>
-                <div className="projecttab">
-                    <img src="/media/mydailyplanner.png" alt="mydailyplanner website"/>
+            <div id="projectlis1">
+                <div id="projectlist">
+                    <div className="projecttab">
+                        <img src="/media/cjfishguide.png" alt="cjfishguide website"/>
+                    </div>
+                    <div className="projecttab">
+                        <img src="/media/momo.png" alt="momo website" />
+                    </div>
+                    <div className="projecttab">
+                        <img src="/media/mydailyplanner.png" alt="mydailyplanner website"/>
+                    </div>
                 </div>
             </div>
             <button id="seemore"><Link to="/projects">See More</Link></button>

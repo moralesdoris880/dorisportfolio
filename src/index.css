@@ -233,136 +233,42 @@ body{
 #seemore:hover{
   background-color: #564539;
 }
-
-/* ABOUT */
-#aboutcontent{
-  display: flex;
-  flex-direction: row;
-}
-#aboutimg{
-  height: 600px;
-  width: 500px;
-  margin-left: 35px;
-  margin-top: 20px;
-  border: 2px solid #AD8B73;
-  background-color: #F7E9D7;
-}
-#aboutbio{
-  width: 700px;
-  height: 600px;
-  margin-top: 20px;
-  margin-left: 20px;
-  border: 2px solid #AD8B73;
-}
-#tech{
-  width: 700px;
-  height: 180px;
-}
-#techlist{
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  height: 150px;
-  width: 500px;
-  margin-left: 20px;
-  justify-content: space-evenly;
-  width: 700px;
-}
-.techimg {
-  margin-top: 20px;
-  font-family: 'Ubuntu', sans-serif;
-  color:#AD8B73; 
-  font-size: 24px;
-  width: 170px;
-  height: 40px;
-}
-
-#techtitlebox{
-  background-color: #AD8B73; 
-  width: 400px;
-  height: 50px;
-  border-radius: 25px;
-  position: relative;
-  left: 19%;
-}
-#techtitle{
-  font-family: 'Ubuntu', sans-serif;
-  color: #FFF6EA;
-  text-align: center;
-  font-size: 36px;
-  position: relative;
-  top: 8px;
-  letter-spacing: 5px;
-}
-#abouttitlebox{
-  background-color: #AD8B73; 
-  width: 400px;
-  height: 50px;
-  border-radius: 25px;
-  margin-top: 20px;
-  margin-left: 10px;
-  position: relative;
-  left: 18%;
-}
-#abouttitle{
-  font-family: 'Ubuntu', sans-serif;
-  color: #FFF6EA;
-  text-align: center;
-  font-size: 36px;
-  position: relative;
-  top: 8px;
-  letter-spacing: 5px;
-}
-#aboutext{
-  font-family: 'Ubuntu', sans-serif;
-  color: #AD8B73;
-  font-size: 48px;
-  font-size: 24px;
-  margin-top: 20px;
-  letter-spacing: 2px;
-  text-indent: 15px;
-  padding: 20px;
-}
-#aboutbottomcontent{
-  height: 140px;
-}
-#connectbox{
-  background-color: #AD8B73; 
-  width: 400px;
-  height: 50px;
-  border-radius: 25px;
-  margin-left: 10px;
-  position: relative;
-  left: 18%;
-  margin-top: 20px;
-  margin-bottom: 10px;
-}
-#connecttitle{
-  font-family: 'Ubuntu', sans-serif;
-  color: #FFF6EA;
-  text-align: center;
-  font-size: 36px;
-  position: relative;
-  top: 8px;
-  letter-spacing: 5px;
-}
-.connecttab{
-  text-decoration: none;
-  width: 150px;
-}
-.connecttab p{
-  color: #AD8B73; 
-  font-family: 'Ubuntu', sans-serif;
-  font-size: 24px;
-  margin-top: 20px;
-}
-.connecttab p:hover{
-  color: #564539;
-}
-#connectlist{
-  display: flex;
-  flex-direction: row;
-  margin-left: 10px;
-  width: 700px;
-  justify-content: space-evenly;
+@media screen and (max-width: 768px) and (min-width: 550px){
+  .logobox{
+    height: 150px;
+    width: 300px;
+  }
+  .logo{
+      font-size: 72px;
+  }
+  #bioimg{
+    display: none;
+  }
+  #bioimg img{
+    display: none;
+  }
+  #biocityimg{
+    width: 700px;
+  }
+  #bio3{
+    display: none;
+  }
+  #bio2{
+    width: 700px;
+    margin-right: 0px;
+  }
+  #biotext{
+    width: 700px;
+  }
+  #projectstitlebox{
+    left:25%
+  }
+  #projectlis1{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  #seemore{
+    left: 30%;
+  }
 }
