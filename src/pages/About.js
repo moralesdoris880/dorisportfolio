@@ -1,6 +1,8 @@
+import '../css/about.css'; 
+
 function About(){
     return(
-        <div id="about">
+        <div id="aboutbox">
             <div id="aboutcontent">
                 <div id="aboutimg"><img src="/media/doris.png" alt="doris"/></div>
                 <div id="aboutbio">
