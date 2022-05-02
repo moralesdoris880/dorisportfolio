@@ -25,18 +25,18 @@
     display: flex;
   }
   
-  .projectinfo{
+.projectinfo{
     width: 500px;
   }
   
-  .project h1{
+.project h1{
     font-family: 'Ubuntu', sans-serif;
     color: #AD8B73;
     font-size: 36px;
     margin: 10px;
     margin-top: 55px;
   }
-  .project p{
+.project p{
     font-family: 'Ubuntu', sans-serif;
     color: #AD8B73;
     font-size: 18px;
@@ -46,7 +46,7 @@
     width: 400px;
     letter-spacing: 2px;
   }
-  .project a{
+.project a{
     font-family: 'Ubuntu', sans-serif;
     color: #AD8B73;
     font-size: 24px;
@@ -56,7 +56,7 @@
   .project a:hover{
     color: #564539;
   }
-  #projectstitle{
+#projectstitle{
     font-family: 'Ubuntu', sans-serif;
     color: #AD8B73; 
     text-align: center;

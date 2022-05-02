@@ -20,7 +20,7 @@ function Home(){
                 </div>
             </div>
 
-            <div id="projectstitlebox"><h1 id="projecttitle" >projects</h1></div>
+            <h1 id="projecttitle" >Projects</h1>
             <div id="projectlis1">
                 <div id="projectlist">
                     <div className="projecttab">
@@ -34,7 +34,7 @@ function Home(){
                     </div>
                 </div>
             </div>
-            <button id="seemore"><Link to="/projects">See More</Link></button>
+            <button id="seemore"><Link to="/projects">see more</Link></button>
         </div>
     );
 }
